@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) => {
         alert('Login exitoso!');
         // Redirigir a la página principal u otra acción después del inicio de sesión
     } else {
-        // Credenciales inválidas
+        // Credenciales inválidas en susuario y contraseña
         alert('Usuario o contraseña incorrectos');
     }
 });
